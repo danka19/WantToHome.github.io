@@ -1,0 +1,329 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="css/grid.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+
+    <script src="js/libs/jquery/jquery.js"></script>
+    <script src="js/libs/slick/slick.min.js"></script>
+    <script src="js/script.js"></script>
+
+    <title>ХочуДомой - благотворительный фонд</title>
+</head>
+<body>
+
+<div id="loading">
+    <img src="images/loading.gif" alt="loading">
+</div>
+
+    <div class="wrapper">
+        <div class="block">
+
+            <header>
+                <nav>
+                    <div class="container">
+                        <a class="logo" href="index.html">
+                            <img src="images/logo.png" alt="Logo">
+                        </a>
+                        <button class="burger"><i class="fa fa-bars"></i></button>
+                        <ul class="menu top">
+                            <li class="item"><a href="about.html">О нас</a></li>
+                            <li class="item"><a href="photogallery.html">Фотогалерея</a></li>
+                            <li class="item dropdown">
+                                <a href="projects.html">Проекты</a>
+                                <ul class="menu">
+                                    <li class="item"><a href="projects_planned.html">Запланированные</a></li>
+                                    <li class="item"><a href="projects_developing.html">Развивающиеся</a></li>
+                                    <li class="item"><a href="projects_accomplished.html">Выполненные</a></li>
+                                </ul>
+                            </li>
+                            <li class="item"><a href="contacts.html">Контакты</a></li>
+                        </ul>
+
+                    </div>
+                </nav>
+            </header>
+
+            <div class="page-title" style="background-image: url(images/slide1.jpg)">
+                <div class="container">
+                    <h3>Помошь детям в Хабаровске</h3>
+                    <div class="breadcrumbs">
+                        <ul>
+                            <li><a href="index.html">Главная</a></li>
+                            <li><a href="projects_developing.html">Развивающиеся</a></li>
+                            <li><span>Помошь детям в Хабаровске</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <main>
+
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-9">
+                            <div class="main-projects detail">
+                                <div class="project">
+                                    <div class="info">
+                                        <h3 class="bottom-line">Помошь детям в Хабаровске</h3>
+                                        <div class="image">
+                                            <img src="images/project3.jpg" alt="project3" width="100%">
+                                        </div>
+                                        <div class="timestep">
+                                            <div>Запуск проекта</div>
+                                            <div class="data"><i class="fa fa-calendar"></i>03.02.2020</div>
+                                        </div>
+                                        <div class="map">
+                                            <div>Локация</div>
+                                            <div class="location"><i class="fa fa-map-marker"></i>Хабаровск, Россия</div>
+                                        </div>
+                                        <div class="description">
+                                            <p>
+                                                В связи с кризисом в российском городе Хабаровск сразу в нескольких приютах для детей не хватает провизии и одежды для детей, но особенный недостаток в одежде, детям холодно из-за спицифических климматических условий.
+                                                <br>
+                                                <br>
+                                                Сотрни наших волонтеров уже собрали несколько тонн одежды, продуктов и игрушек, но этого все равно очень мало по сравнению с тем что требуется на данный момент.
+                                                <br>
+                                                <br>
+                                            </p>
+                                        </div>
+                                        <div class="process">
+                                            <div class="aspiration">
+                                                <div class="collected">Собрано:<span>753 234</span>руб.</div>
+                                                <div>Цель:<span>1 000 000</span>руб.</div>
+                                            </div>
+                                            <div class="progress">
+                                                <div class="line" style="width:75.3234%;"></div>
+                                            </div>
+                                        </div>
+                                        <div class="donate">
+                                            <form  action="">
+                                                <div>
+                                                    <h5>Детали пожертвования</h5>
+                                                    <div class="row">
+                                                        <div class="input col-md-12">
+                                                            <label for="name">Имя</label>
+                                                            <input id="name" type="text" placeholder="Иван Иванов">
+                                                        </div>
+                                                        <div class="input col-md-6">
+                                                            <label for="money">Количество</label>
+                                                            <input id="money" type="text" placeholder="100.00 руб">
+                                                        </div>
+                                                        <div class="input col-md-6">
+                                                            <label for="frequency">Частота</label>
+                                                            <select id="frequency">
+                                                                <option value="onse">Единовременно</option>
+                                                                <option value="weekly">Еженедельно</option>
+                                                                <option value="fortnightly">Каждые 2 недели</option>
+                                                                <option value="monthly">Ежемесячно</option>
+                                                            </select>
+                                                        </div>
+                                                        <div class="input col-md-12">
+                                                            <label for="text">Пожелание</label>
+                                                            <input id="text" type="text" placeholder="Хочу сделать добро!">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div>
+                                                    <h5>Детали платежа</h5>
+                                                    <div class="row">
+                                                        <div class="input col-md-12">
+                                                            <label for="cardNumber">Номер банковской карты</label>
+                                                            <input id="cardNumber" type="text" placeholder="0000 0000 0000 0000">
+                                                        </div>
+                                                        <div class="input col-md-8">
+                                                            <label for="cardData">Дата окончания</label>
+                                                            <div class="duble">
+                                                                <input id="cardData" type="text" placeholder="ММ">
+                                                                <input type="text" placeholder="ГГ">
+                                                            </div>
+                                                        </div>
+                                                        <div class="input col-md-4">
+                                                            <label for="cardCode">CVC2</label>
+                                                            <input id="cardCode" type="text" placeholder="000">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div>
+                                                    <button type="submit">Пожертвовать</button>
+                                                </div>
+                                            </form>
+                                        </div>
+                                        <table>
+                                            <caption class="bottom-line">Список пожертвовавших</caption>
+                                            <tr>
+                                                <th>Имя</th>
+                                                <th>Сумма руб.</th>
+                                                <th>Пожелание</th>
+                                            </tr>
+                                            <tr><td>Иван</td><td>10000</td><td>Красавцы!</td></tr>
+                                            <tr><td>Аноним</td><td>10000</td><td>Так держать!</td></tr>
+                                            <tr><td>Аноним</td><td>9000</td><td>Молодцы!</td></tr>
+                                            <tr><td>Аноним</td><td>8000</td><td></td></tr>
+                                            <tr><td>Аноним</td><td>8000</td><td>Красавцы!</td></tr>
+                                            <tr><td>Саша</td><td>8000</td><td></td></tr>
+                                            <tr><td>Максим</td><td>7000</td><td>Красавцы!</td></tr>
+                                            <tr><td>Иван</td><td>7000</td><td>Бедные дети!</td></tr>
+                                            <tr><td>Иван</td><td>7000</td><td>ЗА РОССИЮ!</td></tr>
+                                            <tr><td>Иван</td><td>3000</td><td></td></tr>
+                                            <tr><td>Аноним</td><td>3000</td><td></td></tr>
+                                            <tr><td>Алексей Петрович</td><td>3000</td><td>Красавцы!</td></tr>
+                                            <tr><td>Иван</td><td>3000</td><td></td></tr>
+                                            <tr><td>Саша</td><td>3000</td><td>Красавцы!</td></tr>
+                                            <tr><td>Иван</td><td>1000</td><td>Красавцы!</td></tr>
+                                            <tr><td>Иван</td><td>1000</td><td>Чудо!</td></tr>
+                                            <tr><td>Иван</td><td>1000</td><td>Красавцы!</td></tr>
+                                            <tr><td>Саша</td><td>1000</td><td></td></tr>
+                                            <tr><td>Иван</td><td>1000</td><td>Красавцы!</td></tr>
+                                            <tr><td>Аноним</td><td>1000</td><td></td></tr>
+                                            <tr><td>Аноним</td><td>1000</td><td></td></tr>
+                                            <tr><td>Аноним</td><td>1000</td><td></td></tr>
+                                            <tr><td>Аноним</td><td>1000</td><td></td></tr>
+                                            <tr><td>Аноним</td><td>1000</td><td></td></tr>
+                                            <tr><td>Аноним</td><td>1000</td><td>Красавцы!</td></tr>
+                                            <tr><td>Иван</td><td>500</td><td></td></tr>
+                                            <tr><td>Максим</td><td>500</td><td></td></tr>
+                                            <tr><td>Иван</td><td>500</td><td></td></tr>
+                                            <tr><td>Алексей</td><td>500</td><td></td></tr>
+                                            <tr><td>Максим</td><td>500</td><td></td></tr>
+                                            <tr><td>Иван</td><td>500</td><td></td></tr>
+                                            <tr><td>Аноним</td><td>500</td><td></td></tr>
+                                            <tr><td>Алексей</td><td>500</td><td></td></tr>
+                                            <tr><td>Саша</td><td>500</td><td></td></tr>
+                                            <tr><td>Иван</td><td>500</td><td></td></tr>
+                                            <tr><td>Иван</td><td>500</td><td></td></tr>
+                                            <tr><td>Алексей</td><td>500</td><td></td></tr>
+                                            <tr><td>Иван</td><td>500</td><td></td></tr>
+                                            <tr><td>Алексей</td><td>500</td><td></td></tr>
+                                            <tr><td>Иван</td><td>500</td><td></td></tr>
+                                            <tr><td>Алексей</td><td>500</td><td></td></tr>
+                                            <tr><td>Иван</td><td>500</td><td></td></tr>
+                                            <tr><td>Иван</td><td>500</td><td></td></tr>
+                                            <tr><td>Иван</td><td>500</td><td></td></tr>
+                                            <tr><td>Иван</td><td>500</td><td></td></tr>
+                                            <tr><td>Алексей</td><td>500</td><td></td></tr>
+                                            <tr><td>Иван</td><td>500</td><td></td></tr>
+                                            <tr><td>Саша</td><td>500</td><td></td></tr>
+                                            <tr><td>Максим</td><td>100</td><td></td></tr>
+                                            <tr><td>Иван</td><td>100</td><td></td></tr>
+                                            <tr><td>Аноним</td><td>100</td><td></td></tr>
+                                            <tr><td>Аноним</td><td>100</td><td></td></tr>
+                                            <tr><td>Алексей</td><td>100</td><td></td></tr>
+                                            <tr><td>Аноним</td><td>100</td><td></td></tr>
+                                            <tr><td>Алексей Петрович</td><td>100</td><td></td></tr>
+                                            <tr><td>Аноним</td><td>100</td><td></td></tr>
+                                            <tr><td>Аноним</td><td>100</td><td></td></tr>
+                                            <tr><td>Алексей</td><td>100</td><td></td></tr>
+                                            <tr><td>Аноним</td><td>100</td><td></td></tr>
+                                            <tr><td>Алексей Петрович</td><td>100</td><td></td></tr>
+                                            <tr><td>Аноним</td><td>100</td><td></td></tr>
+                                            <tr><td>Иван</td><td>100</td><td></td></tr>
+                                            <tr><td>Максим</td><td>100</td><td></td></tr>
+                                            <tr><td>Иван</td><td>100</td><td></td></tr>
+                                            <tr><td>Аноним</td><td>100</td><td></td></tr>
+                                            <tr><td>Иван</td><td>100</td><td></td></tr>
+                                            <tr><td>Аноним</td><td>100</td><td></td></tr>
+                                            <tr><td>Иван</td><td>100</td><td></td></tr>
+                                            <tr><td>Аноним</td><td>100</td><td></td></tr>
+                                            <tr><td>Иван</td><td>100</td><td></td></tr>
+                                            <tr><td>Аноним</td><td>100</td><td></td></tr>
+                                            <tr><td>Иван</td><td>100</td><td></td></tr>
+                                            <tr><td>Иван</td><td>100</td><td></td></tr>
+                                            <tr><td>Аноним</td><td>100</td><td></td></tr>
+                                            <tr><td>Алексей</td><td>100</td><td></td></tr>
+                                            <tr><td>Аноним</td><td>100</td><td></td></tr>
+                                            <tr><td>Аноним</td><td>100</td><td></td></tr>
+                                            <tr><td>Иван</td><td>100</td><td></td></tr>
+                                            <tr><td>Иван</td><td>100</td><td></td></tr>
+                                            <tr><td>Аноним</td><td>100</td><td></td></tr>
+                                            <tr><td>Алексей Петрович</td><td>100</td><td></td></tr>
+                                            <tr><td>Аноним</td><td>100</td><td></td></tr>
+                                            <tr><td>Иван</td><td>100</td><td></td></tr>
+                                            <tr><td>Иван</td><td>100</td><td></td></tr>
+                                            <tr><td>Аноним</td><td>100</td><td></td></tr>
+                                            <tr><td>Иван</td><td>100</td><td></td></tr>
+                                            <tr><td>Аноним</td><td>100</td><td></td></tr>
+                                            <tr><td>Иван Иванов</td><td>100</td><td></td></tr>
+                                            <tr><td>Аноним</td><td>100</td><td></td></tr>
+                                            <tr><td>Аноним</td><td>100</td><td></td></tr>
+                                            <tr><td>Иван</td><td>100</td><td></td></tr>
+                                            <tr><td>Аноним</td><td>100</td><td></td></tr>
+                                            <tr><td>Аноним</td><td>100</td><td></td></tr>
+                                            <tr><td>Аноним</td><td>100</td><td></td></tr>
+                                            <tr><td>Аноним</td><td>100</td><td></td></tr>
+                                            <tr><td>Аноним</td><td>100</td><td></td></tr>
+                                            <tr><td>Аноним</td><td>100</td><td></td></tr>
+                                            <tr><td>Алексей</td><td>100</td><td></td></tr>
+                                            <tr><td>Аноним</td><td>100</td><td></td></tr>
+                                            <tr><td>Аноним</td><td>100</td><td></td></tr>
+                                            <tr><td>Аноним</td><td>100</td><td></td></tr>
+                                            <tr><td>Аноним</td><td>100</td><td></td></tr>
+                                            <tr><td>Аноним</td><td>100</td><td></td></tr>
+                                            <tr><td>Аноним</td><td>100</td><td></td></tr>
+                                            <tr><td>Аноним</td><td>100</td><td></td></tr>
+                                            <tr><td>Аноним</td><td>100</td><td></td></tr>
+                                            <tr><td>Аноним</td><td>100</td><td></td></tr>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 right-block">
+                            <h5 class="bottom-line">Меню</h5>
+                            <ul class="right-menu">
+                                <li><a href="projects_planned.html">Запланированные</a></li>
+                                <li><a href="projects_developing.html">Развивающиеся</a></li>
+                                <li><a href="projects_accomplished.html">Выполненные</a></li>
+                            </ul>
+                            <div class="main-projects">
+                                <h5 class="bottom-line">Последний проект</h5>
+                                <div class="project">
+                                    <div class="image">
+                                        <img src="images/project1.jpg" alt="" width="100%">
+                                    </div>
+                                    <div class="info">
+                                        <h5>Помошь детям в Момбасу</h5>
+                                        <div class="timestep">
+                                            <div>Запуск проекта</div>
+                                            <div class="data"><i class="fa fa-calendar"></i>23.05.2020</div>
+                                        </div>
+                                        <div class="map">
+                                            <div>Локация</div>
+                                            <div class="location"><i class="fa fa-map-marker"></i>Момбаса, Кения</div>
+                                        </div>
+                                        <div class="description">
+                                            <p>
+                                                В северной части Момбасы детям не хватает средств на канцелярию в школу, так же не хватает средств на нормальное питание для детей.
+                                            </p>
+                                        </div>
+                                        <a class="donate" href="project_detail.html">Подробнее</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </main>
+
+        </div>
+
+        <footer>
+            <div class="container">
+                <a class="logo" href="index.html">
+                    <img src="images/logo_footer.png" alt="Logo">
+                </a>
+                <div class="copyright">2020 © «ХочуДомой»</div>
+            </div>
+        </footer>
+
+    </div>
+
+</body>
+</html>

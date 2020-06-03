@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="css/grid.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+
+    <script src="js/libs/jquery/jquery.js"></script>
+    <script src="js/libs/slick/slick.min.js"></script>
+    <script src="js/script.js"></script>
+
+    <title>ХочуДомой - благотворительный фонд</title>
+</head>
+<body>
+
+<div id="loading">
+    <img src="images/loading.gif" alt="loading">
+</div>
+
+    <div class="wrapper">
+        <div class="block">
+
+            <header>
+                <nav>
+                    <div class="container">
+                        <a class="logo" href="index.html">
+                            <img src="images/logo.png" alt="Logo">
+                        </a>
+                        <button class="burger"><i class="fa fa-bars"></i></button>
+                        <ul class="menu top">
+                            <li class="item"><a href="about.html">О нас</a></li>
+                            <li class="item"><a href="photogallery.html">Фотогалерея</a></li>
+                            <li class="item dropdown">
+                                <a href="projects.html">Проекты</a>
+                                <ul class="menu">
+                                    <li class="item"><a href="projects_planned.html">Запланированные</a></li>
+                                    <li class="item"><a href="projects_developing.html">Развивающиеся</a></li>
+                                    <li class="item"><a href="projects_accomplished.html">Выполненные</a></li>
+                                </ul>
+                            </li>
+                            <li class="item"><a href="contacts.html">Контакты</a></li>
+                        </ul>
+
+                    </div>
+                </nav>
+            </header>
+
+            <div class="page-title" style="background-image: url(images/slide1.jpg)">
+                <div class="container">
+                    <h3>Контакты</h3>
+                    <div class="breadcrumbs">
+                        <ul>
+                            <li><a href="index.html">Главная</a></li>
+                            <li><span>Контакты</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <main>
+
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-9">
+                            <form class="form-contacts" action="">
+                                <h3 class="bottom-line">Давайте вместе сделаем мир лучше</h3>
+                                <div class="inputs">
+                                    <input type="text" placeholder="Ваше имя">
+                                    <input type="text" placeholder="Ваш телефон">
+                                    <input type="text" placeholder="Ваша почта *">
+                                    <textarea cols="30" rows="5" placeholder="Ваше сообщение *"></textarea>
+                                    <button type="submit" >Отправить<i class="fa fa-send"></i></button>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="col-xl-3">
+                            <div class="contacts">
+                                <div class="info">
+                                    <div>
+                                        <i class="fa fa-envelope-open"></i>
+                                        <p>Наша почта</p>
+                                        <a href="mailto:noreply@gmail.com">noreply@gmail.com</a>
+                                    </div>
+                                    <div>
+                                        <i class="fa fa-mobile-phone"></i>
+                                        <p>Наш телефон</p>
+                                        <a href="tel:+7 (999) 999-99-99">+7 (999) 999-99-99</a>
+                                    </div>
+                                    <div>
+                                        <i class="fa fa-map-marker"></i>
+                                        <p>Наш адрес</p>
+                                        <a href="#map">г. Хабаровск, Ленина 20</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="map">
+                    <a class="dg-widget-link"
+                       href="http://2gis.ru/khabarovsk/firm/4926340373424806/center/135.072644,48.47009/zoom/16?utm_medium=widget-source&utm_campaign=firmsonmap&utm_source=bigMap">Посмотреть
+                        на карте Хабаровска</a>
+                    <div class="dg-widget-link"><a
+                            href="http://2gis.ru/khabarovsk/firm/4926340373424806/photos/4926340373424806/center/135.072644,48.47009/zoom/17?utm_medium=widget-source&utm_campaign=firmsonmap&utm_source=photos">Фотографии
+                        компании</a></div>
+                    <div class="dg-widget-link"><a
+                            href="http://2gis.ru/khabarovsk/center/135.072644,48.47009/zoom/16/routeTab/rsType/bus/to/135.072644,48.47009╎Детский дом №1?utm_medium=widget-source&utm_campaign=firmsonmap&utm_source=route">Найти
+                        проезд до Детский дом №1</a></div>
+                    <script charset="utf-8" src="https://widgets.2gis.com/js/DGWidgetLoader.js"></script>
+                    <script charset="utf-8">new DGWidgetLoader({
+                        "width": "100%",
+                        "height": 600,
+                        "borderColor": "#a3a3a3",
+                        "pos": {"lat": 48.47009, "lon": 135.072644, "zoom": 16},
+                        "opt": {"city": "khabarovsk"},
+                        "org": [{"id": "4926340373424806"}]
+                    });</script>
+                    <noscript style="color:#c00;font-size:16px;font-weight:bold;">Виджет карты использует JavaScript.
+                        Включите его в настройках вашего браузера.
+                    </noscript>
+                </div>
+
+            </main>
+
+        </div>
+
+        <footer>
+            <div class="container">
+                <a class="logo" href="index.html">
+                    <img src="images/logo_footer.png" alt="Logo">
+                </a>
+                <div class="copyright">2020 © «ХочуДомой»</div>
+            </div>
+        </footer>
+
+    </div>
+
+</body>
+</html>

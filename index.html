@@ -1,0 +1,410 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="css/grid.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+
+    <script src="js/libs/jquery/jquery.js"></script>
+    <script src="js/libs/slick/slick.min.js"></script>
+    <script src="js/script.js"></script>
+
+    <title>ХочуДомой - благотворительный фонд</title>
+</head>
+<body>
+
+<div id="loading">
+    <img src="images/loading.gif" alt="loading">
+</div>
+
+    <div class="wrapper">
+        <div class="block">
+
+            <header>
+                <nav>
+                    <div class="container">
+                        <a class="logo" href="index.html">
+                            <img src="images/logo.png" alt="Logo">
+                        </a>
+                        <button class="burger"><i class="fa fa-bars"></i></button>
+                        <ul class="menu top">
+                            <li class="item"><a href="about.html">О нас</a></li>
+                            <li class="item"><a href="photogallery.html">Фотогалерея</a></li>
+                            <li class="item dropdown">
+                                <a href="projects.html">Проекты</a>
+                                <ul class="menu">
+                                    <li class="item"><a href="projects_planned.html">Запланированные</a></li>
+                                    <li class="item"><a href="projects_developing.html">Развивающиеся</a></li>
+                                    <li class="item"><a href="projects_accomplished.html">Выполненные</a></li>
+                                </ul>
+                            </li>
+                            <li class="item"><a href="contacts.html">Контакты</a></li>
+                        </ul>
+
+                    </div>
+                </nav>
+            </header>
+
+            <div class="slider" data-auto-switch="1" data-auto-switch-time="5000">
+                <div class="item active" data-slide="1" style="background-image: url(images/slide1.jpg)">
+                    <div class="box">
+                        <div class="title">
+                            <span>Каждый ребенок стремится найти родное</span>
+                            <p>Помогите им в своих стремлениях</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item" data-slide="2" style="background-image: url(images/slide2.jpg)">
+                    <div class="box">
+                        <div class="title">
+                            <span>Каждый ребенок хочет найти свой путь</span>
+                            <p>Мы помогаем найти детям свою дорогу в этом мире</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item" data-slide="3" style="background-image: url(images/slide3.jpg)">
+                    <div class="box">
+                        <div class="title">
+                            <span>Каждый ребенок хочет быть счастливым</span>
+                            <p>Помогите детям обрести свое счастье</p>
+                        </div>
+                    </div>
+                </div>
+                <a class="prev" onclick="switchSlide(-1)">&#10094</a>
+                <a class="next" onclick="switchSlide(1)">&#10095</a>
+            </div>
+
+            <main>
+
+                <div class="main-progress margin">
+                    <div class="container">
+                        <h3>Наш фонд помог свыше 2 миллионов детей быть счастливыми</h3>
+                        <p>Каждый ребенок хочет обрести будущее и благодаря Вам дети получают все необходимое для того, чтобы обрести свой дом, найти друзей и быть социально адаптированными в обществе.</p>
+                        <div class="row items">
+
+                            <div class="col-lg-3 col-md-6">
+                                <div class="box">
+                                    <i class="fa fa-child"></i>
+                                    <p class="num">2 121 241</p>
+                                    <p>Под попичительством</p>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-3 col-md-6">
+                                <div class="box">
+                                    <i class="fa fa-home"></i>
+                                    <p class="num">575 922</p>
+                                    <p>Нашли свой дом</p>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-3 col-md-6">
+                                <div class="box">
+                                    <i class="fa fa-users"></i>
+                                    <p class="num">340 540</p>
+                                    <p>Социально адаптированы</p>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-3 col-md-6">
+                                <div class="box">
+                                    <i class="fa fa-wheelchair"></i>
+                                    <p class="num">116 211</p>
+                                    <p>Инвалидов</p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="help margin">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="faq">
+                                    <h3 class="bottom-line">Как вы можете помочь?</h3>
+                                    <p class="signature">Ваша поддержка поможет нам улучшить жизнь бедных и уязвимых детей</p>
+                                    <p>
+                                        Вы можете вспупить в наши ряды волонтеров. Нам важен каждый из васю Иногда бывает что людей не хватает и дети не получают нужной им поддержки.
+                                        <br>
+                                        <br>
+                                        Так же вы можете проспонсировать нашь фонд продовольствием для далышей, либо финансово. Все финансирование уходит на покупку одежды, игрушек, продуктов и соответствующего оборудования для того чтобы дети были счастливы.
+                                        <br>
+                                        <br>
+                                        Делайте добро и оно обязательно вернется к вам в 3-х кратном объеме!
+                                    </p>
+                                    <a href="#">Узнать больше</a>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="team">
+                                    <div class="img">
+                                        <img src="images/team1.jpg" alt="team">
+                                    </div>
+                                    <h5>Мы будем рады любой вашей помощи</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="main-projects margin">
+                    <div class="container">
+                        <h3 class="bottom-line">Последние проекты</h3>
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <div class="project">
+                                    <div class="image">
+                                        <img src="images/project1.jpg" alt="" width="100%">
+                                    </div>
+                                    <div class="info">
+                                        <h5>Помошь детям в Момбасу</h5>
+                                        <div class="timestep">
+                                            <div>Запуск проекта</div>
+                                            <div class="data"><i class="fa fa-calendar"></i>23.05.2020</div>
+                                        </div>
+                                        <div class="map">
+                                            <div>Локация</div>
+                                            <div class="location"><i class="fa fa-map-marker"></i>Момбаса, Кения</div>
+                                        </div>
+                                        <div class="description">
+                                            <p>
+                                                В северной части Момбасы детям не хватает средств на канцелярию в школу, так же не хватает средств на нормальное питание для детей.
+                                            </p>
+                                        </div>
+                                        <div class="process">
+                                            <div class="aspiration">
+                                                <div class="collected">Собрано:<span>113 567</span>руб.</div>
+                                                <div>Цель:<span>400 000</span>руб.</div>
+                                            </div>
+                                            <div class="progress">
+                                                <div class="line" style="width:28.39175%;"></div>
+                                            </div>
+                                        </div>
+                                        <a class="donate" href="project_detail.html">Пожертвовать</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="project">
+                                    <div class="image">
+                                        <img src="images/project2.jpg" alt="" width="100%">
+                                    </div>
+                                    <div class="info">
+                                        <h5>Помошь детям в Момбасу</h5>
+                                        <div class="timestep">
+                                            <div>Запуск проекта</div>
+                                            <div class="data"><i class="fa fa-calendar"></i>11.04.2020</div>
+                                        </div>
+                                        <div class="map">
+                                            <div>Локация</div>
+                                            <div class="location"><i class="fa fa-map-marker"></i>Аннаба, Алжир</div>
+                                        </div>
+                                        <div class="description">
+                                            <p>
+                                                На окраине города Аннаба существуют школы с недостатком средств на еду школьникам.
+                                            </p>
+                                        </div>
+                                        <div class="process">
+                                            <div class="aspiration">
+                                                <div class="collected">Собрано:<span>100 000</span>руб.</div>
+                                                <div>Цель:<span>200 000</span>руб.</div>
+                                            </div>
+                                            <div class="progress">
+                                                <div class="line" style="width:50%;"></div>
+                                            </div>
+                                        </div>
+                                        <a class="donate" href="project_detail.html">Пожертвовать</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="project">
+                                    <div class="image">
+                                        <img src="images/project3.jpg" alt="" width="100%">
+                                    </div>
+                                    <div class="info">
+                                        <h5>Помошь детям в Момбасу</h5>
+                                        <div class="timestep">
+                                            <div>Запуск проекта</div>
+                                            <div class="data"><i class="fa fa-calendar"></i>03.02.2020</div>
+                                        </div>
+                                        <div class="map">
+                                            <div>Локация</div>
+                                            <div class="location"><i class="fa fa-map-marker"></i>Хабаровск, Россия</div>
+                                        </div>
+                                        <div class="description">
+                                            <p>
+                                                В связи с кризисом в российском городе Хабаровск сразу в нескольких приютах для детей не хватает провизии и одежды для детей, но особенный недостаток в одежде, детям холодно из-за спицифических климматических условий.
+                                            </p>
+                                        </div>
+                                        <div class="process">
+                                            <div class="aspiration">
+                                                <div class="collected">Собрано:<span>753 234</span>руб.</div>
+                                                <div>Цель:<span>1 000 000</span>руб.</div>
+                                            </div>
+                                            <div class="progress">
+                                                <div class="line" style="width:75.3234%;"></div>
+                                            </div>
+                                        </div>
+                                        <a class="donate" href="project_detail.html">Пожертвовать</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="donate margin">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <h4 class="bottom-line">Сделать пожертвование</h4>
+                                <form  action="">
+                                    <div>
+                                        <h5>Детали пожертвования</h5>
+                                        <div class="row">
+                                            <div class="input col-md-12">
+                                                <label for="name">Имя</label>
+                                                <input id="name" type="text" placeholder="Иван Иванов">
+                                            </div>
+                                            <div class="input col-md-6">
+                                                <label for="money">Количество</label>
+                                                <input id="money" type="text" placeholder="100.00 руб">
+                                            </div>
+                                            <div class="input col-md-6">
+                                                <label for="frequency">Частота</label>
+                                                <select id="frequency">
+                                                    <option value="onse">Единовременно</option>
+                                                    <option value="weekly">Еженедельно</option>
+                                                    <option value="fortnightly">Каждые 2 недели</option>
+                                                    <option value="monthly">Ежемесячно</option>
+                                                </select>
+                                            </div>
+                                            <div class="input col-md-12">
+                                                <label for="text">Пожелание</label>
+                                                <input id="text" type="text" placeholder="Хочу сделать добро!">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <h5>Детали платежа</h5>
+                                        <div class="row">
+                                            <div class="input col-md-12">
+                                                <label for="cardNumber">Номер банковской карты</label>
+                                                <input id="cardNumber" type="text" placeholder="0000 0000 0000 0000">
+                                            </div>
+                                            <div class="input col-md-8">
+                                                <label for="cardData">Дата окончания</label>
+                                                <div class="duble">
+                                                    <input id="cardData" type="text" placeholder="ММ">
+                                                    <input type="text" placeholder="ГГ">
+                                                </div>
+                                            </div>
+                                            <div class="input col-md-4">
+                                                <label for="cardCode">CVC2</label>
+                                                <input id="cardCode" type="text" placeholder="000">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <button type="submit">Пожертвовать</button>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="col-md-6">
+                                <h4 class="bottom-line">FAQ</h4>
+                                <div class="faq-block">
+                                    <p>
+                                        Есл вы собитаетесь сделать фининсовое пожертвование, то перед тем как отправить денежную сумму убедитесь, что набранная вами сумма и частота пожертвований оптимальны для вашего финансового положения!
+                                        <br>
+                                        <br>
+                                        Если вы хотите отправить продукты питания, одежду, игрушки либо кое что другое что поможет детям, то свящитесь с нами:
+                                        <br>
+                                        <br>
+                                        <form class="form-contacts" action="">
+                                            <div class="inputs">
+                                                <input type="text" placeholder="Ваше имя">
+                                                <input type="text" placeholder="Ваш телефон">
+                                                <input type="text" placeholder="Ваша почта *">
+                                                <textarea cols="30" rows="5" placeholder="Ваше сообщение *"></textarea>
+                                                <button type="submit" >Отправить<i class="fa fa-send"></i></button>
+                                            </div>
+                                        </form>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="main-photo-gallery margin">
+                    <div class="container">
+                        <h3 class="bottom-line">Фотогалерея</h3>
+                        <div id="photos" class="photos">
+                            <img src="images/gallery1.jpg" alt="gallery">
+                            <img src="images/gallery2.jpg" alt="gallery">
+                            <img src="images/gallery3.jpg" alt="gallery">
+                            <img src="images/gallery1.jpg" alt="gallery">
+                            <img src="images/gallery2.jpg" alt="gallery">
+                            <img src="images/gallery3.jpg" alt="gallery">
+                            <img src="images/gallery1.jpg" alt="gallery">
+                            <img src="images/gallery2.jpg" alt="gallery">
+                            <img src="images/gallery3.jpg" alt="gallery">
+                            <img src="images/gallery1.jpg" alt="gallery">
+                            <img src="images/gallery2.jpg" alt="gallery">
+                            <img src="images/gallery3.jpg" alt="gallery">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="sponsors margin">
+                    <div class="container">
+                        <div class="grid">
+                            <img src="images/sponsor1.png" alt="sponsor">
+                            <img src="images/sponsor5.png" alt="sponsor">
+                            <img src="images/sponsor1.png" alt="sponsor">
+                            <img src="images/sponsor2.png" alt="sponsor">
+                            <img src="images/sponsor3.png" alt="sponsor">
+                            <img src="images/sponsor4.png" alt="sponsor">
+                            <img src="images/sponsor5.png" alt="sponsor">
+                            <img src="images/sponsor5.png" alt="sponsor">
+                            <img src="images/sponsor2.png" alt="sponsor">
+                            <img src="images/sponsor3.png" alt="sponsor">
+                            <img src="images/sponsor4.png" alt="sponsor">
+                            <img src="images/sponsor2.png" alt="sponsor">
+                            <img src="images/sponsor2.png" alt="sponsor">
+                            <img src="images/sponsor3.png" alt="sponsor">
+                            <img src="images/sponsor4.png" alt="sponsor">
+                            <img src="images/sponsor3.png" alt="sponsor">
+                            <img src="images/sponsor4.png" alt="sponsor">
+                            <img src="images/sponsor4.png" alt="sponsor">
+                            <img src="images/sponsor5.png" alt="sponsor">
+                            <img src="images/sponsor1.png" alt="sponsor">
+                        </div>
+                    </div>
+                </div>
+
+            </main>
+
+        </div>
+
+        <footer>
+            <div class="container">
+                <a class="logo" href="index.html">
+                    <img src="images/logo_footer.png" alt="Logo Footer">
+                </a>
+                <div class="copyright">2020 © «ХочуДомой»</div>
+            </div>
+        </footer>
+
+    </div>
+
+</body>
+</html>
